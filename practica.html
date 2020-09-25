@@ -37,47 +37,62 @@
     <form>
       <fieldset>
         <legend>Datos personales</legend>
-        <label>Nombre</label>
-        <input type="text">
-        <label>Apellidos</label>
-        <input type="text">
-        <label>Telefono</label>
-        <input type="text">
+        <p>
+          <label>Nombre</label>
+          <input type="text">
+        </p>
+        <p>
+          <label>Apellidos</label>
+          <input type="text">
+        </p>
+        <p>
+          <label>Telefono</label>
+          <input type="text">
+        </p>
         <input hidden type="text">
-        <input type="radio" id="dni" name="document">
-        <label for="dni">DNI</label>
-        <input type="radio" id="nie" name="document">
-        <label for="nie">NIE</label>
-        <label>Nº Documento</label>
-        <input type="text">
+        <p>
+          <input type="radio" id="dni" name="document">
+          <label for="dni">DNI</label>
+          <input type="radio" id="nie" name="document">
+          <label for="nie">NIE</label>
+        </p>
+        <p>
+          <label>Nº Documento</label>
+          <input type="text">
+        </p>
       </fieldset>
 
       <fieldset>
         <legend>Otros datos</legend>
-        <label>Número de hermanos/as</label>
-        <input type="text">
-        <label>Deportes favoritos:</label>
-        <ol>
-          <li> 
-            <input type="checkbox" id="futbol" name="sports">
-            <label for="horns">Fútbol</label>
-          </li>
-          <li> 
-            <input type="checkbox" id="basketball" name="sports">
-            <label for="horns">Baloncesto</label>
-          </li>
-          <li> 
-            <input type="checkbox" id="rugby" name="sports">
-            <label for="horns">Rugby</label>
-          </li>
-          <li> 
-            <input type="checkbox" id="padel" name="sports">
-            <label for="horns">Padel</label>
-          </li>
-          <li> 
-            <input type="checkbox" id="pelota" name="sports">
-            <label for="horns">Pelota vasca</label></li>
-        </ol>
+        <p>
+          <label>Número de hermanos/as</label>
+          <input type="text">
+        </p>
+        <p>
+          <label>Deportes favoritos:</label>
+          <ol>
+            <li> 
+              <label for="horns">Fútbol</label>
+              <input type="checkbox" id="futbol" name="sports">
+            </li>
+            <li> 
+              <label for="horns">Baloncesto</label>
+              <input type="checkbox" id="basketball" name="sports">
+            </li>
+            <li> 
+              <label for="horns">Rugby</label>
+              <input type="checkbox" id="rugby" name="sports">
+            </li>
+            <li> 
+              <label for="horns">Padel</label>
+              <input type="checkbox" id="padel" name="sports">
+            </li>
+            <li> 
+              <label for="horns">Pelota vasca</label>
+              <input type="checkbox" id="pelota" name="sports">
+            </li>
+          </ol>
+        </p>
       </fieldset>
       <input type="reset" value="Reset Form">
       <input type="submit" value="Enviar">
